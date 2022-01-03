@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>CSS 실습</title>
+     <!-- <style>
+        div {
+            width: 150px;
+            height: 150px;
+            border: 5px solid red;
+            padding:15px;
+            box-sizing: border-box;
+        }
+
+        .border-box {
+            /* border-box 방식  */
+            /* border-box는 테두리가 크기의 기준점이라 테두리를 기준점으로 
+               안쪽으로 padding이 생겨 내용이 줄어듬
+            */
+            box-sizing: border-box;
+        }
+
+        .content-box {
+            /* 기본 content box는 padding이 생겨버려서 사이즈가 커짐 */
+        }
+    </style>  -->
+
+    <link rel="stylesheet" href="./01-boxmodel.css">
+</head>
+<body>
+    <!-- <div class="border-box">보더박스</div>
+    <div>기본값기본값기본값기본값기본값기본값기본값기본값기본값기본값기본값기본값기본값기본값기본값기본값기본값기본값기본값기본값기본값기본값기본값기본값기본값기본값</div>
+    <div class="content-box">컨텐트박스</div> -->
+
+    <!-- 박스 정렬 -->
+    <div>박스 1</div>
+    <div class="pb">
+        <div>박스 2</div>   
+        <div>박스 3</div>
+        <div>박스 4</div>
+    </div>
+    <div>박스 5</div>
+</body>
+</html>

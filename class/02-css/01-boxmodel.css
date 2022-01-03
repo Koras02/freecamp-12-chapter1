@@ -1,0 +1,31 @@
+div {
+    width: 80px;
+    height: 80px;
+    border:2px solid red;
+}
+
+.pb {
+   width: 500px;
+   height: 320px;
+   border:2px solid blue;
+   display:flex;
+
+   /* 기본값이 row로 들어가 가로 정렬이 됨 */
+   /* row로 작동하지만 명시적으로 적어주는것이 좋다. */
+   /* flex는 부모의 크기에 따라 정렬 된다. */
+   flex-direction: row;
+
+   /* space-between을 사용할때 자식박스 3개일때
+      3개로 나눠지는데 2개일때 2박스가 양쪽으로 찢어저 정렬
+   */
+   justify-content: center;
+   
+   align-items:center;
+
+}
+
+
+
+/* 숙제 회원 가입 페이지를 토대로 폼으로 만들어 보기 */
+
+/* figma 참고 */

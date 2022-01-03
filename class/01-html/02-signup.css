@@ -1,0 +1,17 @@
+input {
+   background-color: red;
+   color:white;
+}
+
+.name {
+    background-color:blue;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+
+    /* solid dotted */
+    border:2px dotted #eb1919bd;
+}
+
