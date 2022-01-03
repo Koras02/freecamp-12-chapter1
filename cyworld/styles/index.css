@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+.background {
+    background-image:url("../images/background.png");
+    width: 1024px;
+    height: 600px;
+    /* 위 아래 오른쪽 왼쪽 순으로  */
+    padding: 20px 0px 0px 20px;
+}
+
+.outerbox {
+    background-image:url("../images/outerbox.png"); 
+    width: 808px;
+    height: 544px;
+}
+
+.wrapper {
+    display:flex;
+    flex-direction: row;
+    padding: 32px 0px 0px 32px;
+}
+
+/* 왼쪽 레이아웃 영역 */
+
+.wrapper__left {
+  width: 208px;
+  height: 472px;
+}
+
+.wrapper__left__header {
+   /* left__header위 부모 size기준으로 가로 너비를 100%로 차지 */
+    width: 100%;
+    height: 30px;
+    background-color:salmon;
+
+} 
+.wrapper__left__body {
+    width:100%;
+    height: 100%;
+    background-color: seagreen; 
+    padding: 20px 30px 0px 30px;
+}
+
+/* header */
+.left__body__header {
+   width: 100%;
+   
+}
+
+.left__body__header__gray {
+    width:148px;
+    height: 133px;
+    background-color:gray;
+}
+
+.left__body__header__line {
+    border-top: 1px dotted black;
+    margin-top: 12px;
+    /* display:flex;
+    flex-direction: column; */
+}
+
+/* profile */
+.left__body__profile {
+
+}
+
+
+/* footer */
+.left__body__footer {
+
+}
+
+
+
+
+
+.wrapper__right {
+    width: 524px;
+    height: 472px;
+}
+
