@@ -31,29 +31,44 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-left: 3px;
-    margin-right: 7px;
+  
 }
 
 /* 왼쪽 영역 - 헤더(투데이 카운터) */
 .wrapper__left__header {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+    justify-content: space-between;
+    width:105px;
     height: 30px;
+
 }
+
 
 .today {
-    padding-top: 10px;
-    font-size: 9px;
+    padding-top: 7px;
+    font-size: 8px;
 }
 
-.zero {
-    color: red;
-    font-size: 11px;
+
+.total {
+    padding-top:7px;
+    font-size: 8px;
 }
+
+.number {
+    font-size:11px;
+    margin-left: 2px;
+}
+
+.line {
+    margin-top: 10px;
+    height:9px;
+    width:1px;
+    border:1px solid #55B2E4;
+}
+
+
 
 .count {
     font-size: 11px;
@@ -125,16 +140,14 @@
     width: 100%;
 }
 
-.feel__title {
-    font-size: 11px;
-    margin-bottom: 5px;
-    color: gray;
+
+
+.wrapper__left__header {
+    font-size:12px;
+    color:#55B2E4;
 }
 
-
-
-
-
+/* 인쪽 */
 
 
 /* 오른쪽 영역 */
@@ -150,17 +163,31 @@
 
 .wrapper__right__header {
     width:510px;
+    height:10px;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 9px;
+    align-items: center;
+
 }
 
     
 
 .right__header__title, .right__header__setting {
    color:#55B2E4;
-   font-size:14px;
-   font-weight: 600;;
+   font-size:12px;
+}
+.right__header__title {
+    margin-left: 40px;
+    font-weight: bold;
+}
+.right__header__setting{
+    font-size:8px;
+    font-weight: 200;
+}
+.right__header__setting > .fas {
+    color:#55B2E4;
 }
 
 .wrapper__right__body {
