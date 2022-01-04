@@ -3,13 +3,24 @@
     margin:0;
     background:#ffffff;
     box-sizing:border-box;
+    
 }
-
+.body {
+    width:100%;
+    margin: 0 auto;
+}
 
 .signup-container {
     width: 670px;
-    height: 960px;
-    margin: 90px auto;
+    height: 900px;
+    margin:  auto;
+    border: 1px solid #AACDFF;
+    padding:80px;
+    border-radius:20px;
+    box-shadow: 7px 7px 39px rgba(0, 104,255,0.25);
+    display:flex;
+    flex-direction: column;
+
 }
 
 .signup-container-title {
