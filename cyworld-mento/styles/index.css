@@ -139,9 +139,48 @@
 
 /* 오른쪽 영역 */
 .wrapper__right {
-    width:100%;
+    width:524px;
     height: 472px;
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
+    padding-left:5px;
+}
+
+
+.wrapper__right__header {
+    width:510px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+    
+
+.right__header__title, .right__header__setting {
+   color:#55B2E4;
+   font-size:14px;
+   font-weight: 600;;
+}
+
+.wrapper__right__body {
+    width:510px;
+    height: 445px;
+    border:1px solid gray;
+    border-radius: 15px;
+    background-color:white;
+
+    /* wrapper에게 주는 것이 padding 좋다.
+     iframe에 따라 각각 컨텐츠마다 설정이 자유롭지 못하다.
+
+    */
+
+
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border:none;
 }
 
