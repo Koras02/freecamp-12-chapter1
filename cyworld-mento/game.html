@@ -5,6 +5,11 @@
     <link href="./styles/game.css" rel="stylesheet">
     <script src="./number.js"></script>
 </head>
+<script> 
+
+
+
+</script>
 <body>
     <div class="wrapper">
        <div class="wrapper_header">
@@ -29,15 +34,14 @@
           <img src="./images//lotto.png"/>
           <div class="game_title">lotto</div>
           <div class="game_subTitle">버튼을 누르세요</div>
-          <div class="nan" id="button">
-             <span>3</span>
-             <span>5</span>
-             <span>10</span>
-             <span>24</span>
-             <span>30</span>
-             <span>34</span>
+          <div class="nan" >
+             <span class="ball" id="num1">?</span>
+             <span class="ball" id="num2">?</span>
+             <span class="ball" id="num3">?</span>
+             <span class="ball" id="num4">?</span>
+             <span class="ball" id="num5">?</span>
            </div>     
-              <button type="submit" class="button" onclick="numberRandom()">Button</button>
+              <button type="submit" class="number" onclick="numberRandom()">Button</button>
        </div>
     </div>
 </body>
