@@ -45,5 +45,11 @@ for(i = 0; i < 10; i++)  {
 
 }
 
+const student = {name: "홍길동", age: 16, school:"코드캠프", home:"구로구"};
+
+console.log(student.home)
+
+
+
 
 

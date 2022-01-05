@@ -5,7 +5,7 @@
 }
 
 html ,body {
-    width:1005;
+    width:100%;
     height: 100%;
 }
 
@@ -68,7 +68,6 @@ html ,body {
 }
 .wrapper_video_sub_title {
       font-size:8px;
-      font-family:Sci Fied Bitmap;
       font-style: normal;
       letter-spacing:0.5px;
       text-align: justify;
