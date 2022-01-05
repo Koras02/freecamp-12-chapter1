@@ -39,7 +39,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width:105px;
+    width:115px;
     height: 30px;
 
 }
@@ -58,7 +58,7 @@
 
 .number {
     font-size:11px;
-    margin-left: 2px;
+    margin-left: px;
 }
 
 .line {
