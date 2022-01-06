@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <link rel="stylesheet" href="./styles/juke.css">
+    <script src="./js/script.js"></script>
 </head>
 <body>
     <div class="jukebox-container">
@@ -65,7 +66,10 @@
              
                 <thead>
                 <th width="50">
-                    <input type="checkbox" />
+                    <input type="checkbox" 
+                      id="all" name="all"
+                      onclick="checkAll()"
+                    />
                 </th>
                 <td width="20">번호</td>
                 <td width="280">곡명</td>
@@ -74,7 +78,7 @@
                 <tbody>
                     <tr>
                         <th width="30">
-                            <input type="checkbox"/>
+                            <input type="checkbox" name="checkBox" />
                         </th>
                         <td width="40">1</td>
                         <td width="280">눈의 꽃</td>
@@ -82,7 +86,7 @@
                     </tr>
                     <tr>
                         <th width="30">
-                            <input type="checkbox"/>
+                            <input type="checkbox"   name="checkBox" />
                         </th>
                         <td width="40">2</td>
                         <td width="280">사랑스러워</td>
@@ -90,7 +94,7 @@
                     </tr>
                     <tr>
                         <th width="30">
-                            <input type="checkbox"/>
+                            <input type="checkbox"  name="checkBox" />
                         </th>
                         <td width="40">3</td>
                         <td width="280">내사랑: Partner For Life</td>
@@ -98,7 +102,7 @@
                     </tr>
                     <tr>
                         <th width="30">
-                            <input type="checkbox"/>
+                            <input type="checkbox"  name="checkBox" />
                         </th>
                         <td width="40">4</td>
                         <td width="280">Love Love Love</td>
@@ -106,7 +110,7 @@
                     </tr>
                     <tr>
                         <th width="30">
-                            <input type="checkbox"/>
+                            <input type="checkbox"  name="checkBox" />
                         </th>
                         <td width="40">5</td>
                         <td width="280">애인...있어요</td>
