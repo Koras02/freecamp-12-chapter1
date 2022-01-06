@@ -8,21 +8,17 @@ function numberRandom() {
    let rottoNum = [];
 
    for(let i = 0; i < 5; i++) {
-       rottoNum[i] = Math.floor(Math.random() * 45) + 1;
-
-   
+       rottoNum[i] = Math.floor(Math.random() * 99) + 5;
    }
 
-   for (let i=0; i < 1; i++) {
+   for (let i=0; i < 5; i++) {
        let ball = document.getElementById("num" + (i+1));
 
        setTimeout(function() {
            ball.innerHTML = `${rottoNum}`
-       },0);
-   }
+       },1000);
+   }    
 
-
-    
 }
 
 

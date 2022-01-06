@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>Game</title>
+    <link href="./styles/game.css" rel="stylesheet">
+    <script src="./number.js"></script>
+</head>
+<script> 
+
+
+
+</script>
+<body>
+    <div class="wrapper">
+       <div class="wrapper_header">
+           <div class="header_title">
+                 <div class="title">GAME</div>
+                  <div class="sub_title">TODAY CHOICE</div>
+              </div>
+           <div class="divideLine"></div>
+       </div>
+       <div class="game__container">
+          <img src="./images/word.png" />
+          <div class="game__title">끝말잇기</div>
+          <div class="game__subtitle">제시어 : 코드캠프</div>
+          <div class="word__text">
+              <!-- flex와 justify-content 옵션을 변경할때 input 창과 버튼의 사이즈가 변경 되는 이유 -->
+              <input id="myword" class="textbox" type="text" placeholder="단어를 입력하세요." />
+              <button class="search" onclick="">입력</button>
+          </div>
+          <div id="result" class="word__result">결과!</div>
+       </div>
+       <div class="game__container">
+          <img src="./images//lotto.png"/>
+          <div class="game_title">lotto</div>
+          <div class="game_subTitle">버튼을 누르세요</div>
+          <div class="nan" >
+             <span class="ball" id="num1">?</span>
+             <span class="ball" id="num2">?</span>
+             <span class="ball" id="num3">?</span>
+             <span class="ball" id="num4">?</span>
+             <span class="ball" id="num5">?</span>
+           </div>     
+              <button type="submit" class="number" onclick="numberRandom()">Button</button>
+       </div>
+    </div>
+</body>
+</html>
