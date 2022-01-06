@@ -141,6 +141,9 @@ span {
     background:#FFE400;
     border:1px solid #000000;
     border-radius:8px;
-    margin-left: 2px;
     text-align: center;
+}
+.nan > span {
+    font-size:12px;
+    font-weight: bold;
 }

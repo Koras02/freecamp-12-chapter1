@@ -1,0 +1,156 @@
+* {
+    margin:0;
+    box-sizing: border-box;
+}
+
+html ,body {
+    width:100%;
+    height: 100%;
+}
+
+.jukebox-container {
+    width: 100%;
+    height: 100%;
+    padding:20px 20px 30px 20px;
+
+}
+
+
+
+.jukebox-header {
+
+
+}
+
+.title-container {
+    display:flex;
+    align-items: center;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #999999;
+}
+
+.jukebox-title {
+    font-size:13px;
+    font-weight: bold;
+    line-height: 17px;
+    margin-right: 7px;
+    color: #55B2D4;
+}
+
+.jukebox-subtitle {
+    font-size: 8px;
+    text-transform: uppercase;
+    font-weight: normal;
+    align-items: center;
+    letter-spacing: -0.08em;
+}
+
+.jukebox-music {
+    display:flex;
+    padding-top:20px;
+    justify-content: space-around;
+
+}
+
+.jukebox-music-box {
+    width:120px;
+    height: 180px;
+
+}
+
+img {
+    width:120px;
+    height: 120px;
+}
+
+.jukebox-music-title {
+    font-size:11px;
+    text-align: center;
+    font-weight:bold;
+    line-height: 15px;
+    font-style:normal;
+    color: #0F465E;
+}
+
+.jukebox-music-subTitle {
+    text-align: center;
+    font-size:10px;
+    line-height: 13px;
+    color:#999999;
+    font-weight: bold;
+    font-style: normal;
+    font-family: Malgun Gothic;
+    margin-top: 2px;
+}
+.jukebox-title-container {
+    display:flex;
+    align-items: center;
+    padding-bottom: 7px;
+    margin-top: 50px;
+
+}
+
+
+.jukebox-table {
+    width:464px;
+    height:146px;
+}
+
+.jukebox-title {
+    font-size:13px;
+    font-weight: bold;
+    line-height: 17px;
+    margin-right: 7px;
+    color: #55B2D4;
+}
+
+.jukebox-subtitle {
+    font-size: 8px;
+    text-transform: uppercase;
+    font-weight: normal;
+    align-items: center;
+    letter-spacing: -0.08em;
+}
+
+
+table {
+    width:100%;
+    font-size:10px;
+    margin:0;
+    line-height: 13px;;
+    border-spacing: 0;
+    border-collapse: collapse;
+
+}
+
+thead {
+    background: #EEEEEE;
+    color:#999999;
+    
+}
+
+td {
+    justify-content: space-between;
+    
+}
+
+tr {
+    width:100%;
+    height:100%;
+    border-bottom:1px dotted #999999;
+}
+
+th {
+}
+
+tbody {
+    background:#fff;
+}
+
+
+
+input {
+    border: 1px solid #999999;
+    background:#FFFFFF;
+    border:none;
+}
