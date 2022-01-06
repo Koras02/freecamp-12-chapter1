@@ -4,6 +4,41 @@
     <title>Game</title>
     <link href="./styles/game.css" rel="stylesheet">
     <script src="./number.js"></script>
+    <script>
+       const startWord = () => {
+           // 제시어 가져오기 
+           // 상수 대입
+           // 제시어 부분 input 부분 은 차이가 있다.
+           // 제시어 부분은 코드 캠프지만 그냥 종이 위에 글씨를 써놓은것 
+           // input 태그안에 입력한것은 어떤 파우치 안에 종이를 집어넣은것 
+           const word = document.getElementById("word").innerText;
+
+           // 마지막 글자 index
+           const lastword = word[word.length - 1];
+
+           // input box 안에 값 가져오기
+           const myword = document.getElementById("myword").value;
+
+           const firstword = myword[0];
+
+
+
+           // 조건문 비교 끝말잇기
+           if (firstword === lastword) {
+               document.getElementById("result").innerText = "정답입니다!";
+               // 입력값을 myword에 할당 
+               document.getElementById("word").innerText = myword;
+
+               document.getElementById("myword").value = "";
+           } else {
+               document.getElementById("result").innerText = "오답입니다!";
+               document.getElementById("myword").value = "";
+
+           }
+
+           
+       }
+    </script>
 </head>
 <script> 
 
@@ -22,11 +57,11 @@
        <div class="game__container">
           <img src="./images/word.png" />
           <div class="game__title">끝말잇기</div>
-          <div class="game__subtitle">제시어 : 코드캠프</div>
+          <div class="game__subtitle">제시어 : <span id="word">코드캠프</div>
           <div class="word__text">
               <!-- flex와 justify-content 옵션을 변경할때 input 창과 버튼의 사이즈가 변경 되는 이유 -->
               <input id="myword" class="textbox" type="text" placeholder="단어를 입력하세요." />
-              <button class="search" onclick="">입력</button>
+              <button class="search" onclick="startWord()">입력</button>
           </div>
           <div id="result" class="word__result">결과!</div>
        </div>

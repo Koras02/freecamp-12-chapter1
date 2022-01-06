@@ -6,12 +6,14 @@
 <script src="./06-timer.js"></script>
 <body>
     <div id="timer">0:00</div> 
+    <div>발급받은 번호는</div>
     <div id="auth">
         0000000
     </div>
-    <button onclick="time()">인증번호 전송</button>
+    <button onclick="time()" id="off">인증번호 전송</button>
+    <button onclick="time()">인증번호 재전송</button>
     <div id="countdown">10</div>
-    <button id="zero" >인증완료</button>
+    <button id="zero" onClick="location.href='01-variable.html'">인증완료</button>
 
 </body>
 </html>

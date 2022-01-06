@@ -115,10 +115,15 @@ const time = () => {
          if (time >= 0) {
              document.getElementById("countdown").innerText = time;
              time = time - 1;
+             document.getElementById("zero").disabled = true;
+             document.getElementById("zero").style.cursor = "";
+
              
 
          } else {
-             document.getElementById("zero").disabled = true;
+             document.getElementById("zero").disabled = false;
+             document.getElementById("off").disabled = true;
+
              document.getElementById("zero").style.cursor = "not-allowed";
 
              isStarted = false;
