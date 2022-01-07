@@ -307,3 +307,8 @@ iframe {
 
     cursor:pointer;
 }
+
+.navigation__item:first-child {
+    background:#fff;
+    color:#000;
+}
