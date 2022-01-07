@@ -1,8 +1,12 @@
 
+
+
 * {
     margin: 0px;
     box-sizing: border-box;
 }
+
+
 
 .background {
     background-image: url("../images/background.png");
@@ -58,7 +62,7 @@
 
 .number {
     font-size:11px;
-    margin-left: px;
+    margin-left: 2px;
 }
 
 .line {
@@ -197,17 +201,105 @@
     border-radius: 15px;
     background-color:white;
 
+
     /* wrapper에게 주는 것이 padding 좋다.
      iframe에 따라 각각 컨텐츠마다 설정이 자유롭지 못하다.
 
     */
+}
 
+.right__header_routing {
+  
+    width:62px;
+    display:flex;
+    flex-direction: column;
+ 
+}
+.routing_title {
+    width:60px;
+    height:30px;
+    margin-top: 10px;
+    border-radius: 0px 5px 5px 0px;
+    box-sizing:border-box;
+    text-align: center;
+    color:#fff;
+    font-size:12px;
+    background:#298EB5;
+
+
+}
+.wrapper__right__body {
+
+}
+
+.wrapper__right_body_menu {
+  
+    width:62px;
+    top:96px;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.wrapper_right_body_menu_item {
+    margin-bottom: 15px;
+    padding: 0 15px;
+    height:35px;
+    box-sizing: border-box;
+    background:#298EB5;
+    border-radius: 0px 5px 5px 0px;
+    text-align: center;
+    font-size:12px;
+    line-height: 30px;
 
 }
 
 iframe {
     width: 100%;
     height: 100%;
+
     border:none;
 }
 
+.wrapper__right_menu {
+    width:62px;
+    margin-top: 50px;
+    font-size:12px;
+    padding-bottom: 10px;
+    align-items: center;
+    color:#fff;
+    display:flex;
+    flex-direction: column;
+
+}
+
+.wrapper_right_box {
+     width:60px;
+     height:38px;
+    padding-bottom: 10px;
+    background:#298EB5;
+    margin-bottom: 10px;
+    border-radius: 0px 5px 5px 0px;
+    text-align: center;
+    align-items: center;
+    padding:10px 5px;
+    border:1px solid #0F465E;
+    cursor:pointer;
+
+
+}
+
+
+.wrapper_right_box:checked {
+    background: #000;;
+}
+
+
+
+.conbox {
+     display:none;
+     background:aaa;
+}
+
+.conbox > .tab1:checked ~ .con1 {
+    display:block;
+}

@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+html, body {
+    width:100%;
+    height: 100%;
+
+}
+
+.main-wrapper {
+    width: 100%;
+    height: 100%;
+
+}
+
+.sign-up-container {
+    width: 540px;
+    height: 960px;
+    margin: 0 auto;
+    border: 1px solid #000;
+    margin-top: 50px;
+    display:flex;
+    flex-direction: column;
+    padding:50px 50px;
+}
+
+.sign-up-title {
+    color:#0068FF;
+    font-size:32px;
+    line-height: 47px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.sign-up-from {
+    width: 380px;
+    height: 60px;
+    margin-bottom: 20px;
+    background:#fff;
+    border: 1px solid #D2D2D2;
+    border-radius: 7px;
+    padding:20px;
+
+}
+
+input {
+    outline: none;
+}
+
+.border {
+    border:none;
+}
+
+
+.phone-container {
+    display:flex;
+    width:380px;
+   
+}
+
+.phone-number {
+    display:flex;
+    width:380px;
+    margin-top: 20px;
+    justify-content: flex-end;
+}
+
+.number {
+    margin-right: 12px;
+    font-size:18px;
+    font-weight: normal;
+    align-self: center;
+    color:#0068FF;
+}
+.submit > button{ 
+    width: 120px;
+    height: 48px;
+    background: #fff;
+    border-radius: 7px;
+    box-sizing:border-box;
+    border:1px solid #d2d2d2;
+    
+    outline:none;
+}
+
+.phone {
+    width:100px;
+    height:40px;
+    margin:10px;
+    border:1px solid #D2D2D2;
+    border-radius: 7px;
+    text-align: center;
+}
+
+span {
+    margin-top: 20px;
+}
+
+.phone-check {
+    display:flex;
+    width:380px;
+    margin-top: 20px;
+    justify-content: flex-end;
+}
+
+.submit > button{ 
+    width: 120px;
+    height: 48px;
+    background: #fff;
+    border-radius: 7px;
+    box-sizing:border-box;
+    border:1px solid #d2d2d2;
+    
+    outline:none;
+}
+
+
+.time {
+    margin-right: 12px;
+    font-size:18px;
+    font-weight: normal;
+    align-self: center;
+    color:#0068FF;
+}
+
+.location {
+    width: 380px;
+    height: 60px;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+select {
+    width: 100%;
+    height: 60px;
+    background: #FFFFFF;
+    border:1px solid #d2d2d2;
+    outline:none;
+    padding: 0px 10px 0px 10px;   
+}
+
+
+.sextion {
+    width: 100%;
+    position: relative;
+    bottom:-5px;
+    top:20px;
+    left: 120px;
+}
+
+.sextion > input {
+    margin: 10px;
+}
+
+.go {  
+width:380px;
+    padding-top:0px;
+      margin-top: 40px;
+      border-top: 1px solid #e6e6e6;
+      padding-top: 30px;
+}
+
+button {
+    width:380px;
+    height: 75px;
+    background:#fff;
+    outline: none;
+    border:1px solid #0068FF;
+    border-radius: 10px;
+}

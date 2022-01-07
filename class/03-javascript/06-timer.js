@@ -116,6 +116,7 @@ const time = () => {
              document.getElementById("countdown").innerText = time;
              time = time - 1;
              document.getElementById("zero").disabled = true;
+             
              document.getElementById("zero").style.cursor = "";
 
              

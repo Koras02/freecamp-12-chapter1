@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>코드 캠프 회원가입</title>
+    <link href="./register.css" rel="stylesheet" />
+    <script src="./timer.js"></script>
+</head>
+<body>
+    <div class="main-wrapper">
+        <div class="sign-up-container">
+           <div class="sign-up-title">
+               코드 캠프 회원가입
+           </div>
+
+           <div class="sign-up-from">
+               <input type="email" class="border" placeholder="이메일을 입력해주세요" />
+           </div>
+           <div class="sign-up-from">
+            <input type="email" class="border"placeholder="이메일을 입력해주세요" />
+
+            </div>
+            <div class="sign-up-from">
+                <input type="password"class="border" placeholder="비밀번호를 입력해주세요" />
+             </div>
+             <div class="sign-up-from">
+                <input type="password"class="border" placeholder="비밀번호를 다시 입력해주세요" />
+             </div>
+
+             <div class="phone-container">
+                <input id="phone1" type="text" class="phone" oninput="changeFocus1()" maxlength="3"/> <span> -</span>
+                <input id="phone2" type="text" class="phone" oninput="changeFocus2()" maxlength="4"/> <span>-</span>
+                <input id="phone3" type="text" class="phone" oninput="changeFocus3()" maxlength="4"/> 
+             </div>
+             
+             <div class="phone-number">
+                 <div class="number" id="auth">000000</div>
+                 <div class="submit">
+                     <button type="submit" onclick="time()" id="off" >인증번호 전송</button>
+                 </div>
+             </div>
+             <div class="phone-check">
+                 <div class="time" id="countdown">10</div>
+                 <div class="submit">
+                     <button type="submit" id="zero">인증완료</button>
+                 </div>
+             </div>
+
+             <div class="location">
+                 <select>
+                     <option>최초 지역을 선택하세요</option>
+                     <option>서울</option>
+                     <option>경기</option>
+                     <option>인천</option>
+
+                 </select>
+             </div>
+             <div class="sextion">
+                 <input type="radio" class="gender" name="gender">여성
+                 <input type="radio" name="gender">남성
+             </div>
+
+             <div class="go">
+                 <button>
+                     가입하기
+                 </button>
+             </div>
+        </div
+    </div>
+</body>
+</html>
